@@ -13,9 +13,9 @@ Ever sent a message in Microsoft Teams or Outlook and immediately regretted it? 
 
 2. **Install dependencies:**
    It is recommended to use a virtual environment (venv).
-   pip install transformers torch keyboard
+   pip install -r requirements.txt
 
-3. **Run the script:**
+4. **Run the script:**
    ⚠️ **IMPORTANT:** You must run your terminal as an **Administrator**. This is required for the keyboard library to hook into hardware events across different applications like Teams, Outlook, or Slack.
    python guardian.py
 
@@ -33,7 +33,6 @@ This project uses the michellejieli/NSFW_text_classifier model via the HuggingFa
 This project is currently a proof-of-concept. Future iterations will focus on:
 * **Concurrency:** Moving AI inference to a separate thread to ensure the keystroke listener never "hangs."
 * **Context Awareness:** Tracking active windows to avoid logging in non-messaging apps.
-* **State Sync:** Implementing a smarter buffer that handles text highlighting, Ctrl+A, and bulk deletions.
 
 ## ⚖️ License
 Distributed under the MIT License.
