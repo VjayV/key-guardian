@@ -32,7 +32,6 @@ This project uses the michellejieli/NSFW_text_classifier model via the HuggingFa
 ## 🚧 Roadmap & Improvements
 This project is currently a proof-of-concept. Future iterations will focus on:
 * **Concurrency:** Moving AI inference to a separate thread to ensure the keystroke listener never "hangs."
-* **Context Awareness:** Tracking active windows to avoid logging in non-messaging apps.
 
 ## ⚖️ License
 Distributed under the MIT License.
