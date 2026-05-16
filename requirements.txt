@@ -2,3 +2,5 @@ keyboard
 torch
 transformers
 pyperclip
+pygetwindow
+pyrect
