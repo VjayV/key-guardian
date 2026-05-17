@@ -29,10 +29,6 @@ This project uses the michellejieli/NSFW_text_classifier model via the HuggingFa
 * **Fast:** Optimized for CPU inference.
 * **Local:** Your data never leaves your machine. Privacy is baked into the design.
 
-## 🚧 Roadmap & Improvements
-This project is currently a proof-of-concept. Future iterations will focus on:
-* **Concurrency:** Moving AI inference to a separate thread to ensure the keystroke listener never "hangs."
-
 ## ⚖️ License
 Distributed under the MIT License.
 
